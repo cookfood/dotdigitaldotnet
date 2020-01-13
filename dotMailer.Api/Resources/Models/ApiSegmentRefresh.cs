@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using dotMailer.Api.Resources.Enums;
+using dotdigital.Api.Resources.Enums;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiSegmentRefresh
 	{

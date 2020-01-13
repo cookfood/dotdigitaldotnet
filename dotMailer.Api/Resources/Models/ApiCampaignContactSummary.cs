@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiCampaignContactSummary
 	{
@@ -39,6 +39,9 @@ namespace dotMailer.Api.Resources.Models
 		{ get; set; }
 
 		public string FirstOpenIp
+		{ get; set; }
+
+		public byte[] OpenIP
 		{ get; set; }
 
 		public bool Unsubscribed

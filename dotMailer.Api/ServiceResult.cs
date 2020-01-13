@@ -1,4 +1,4 @@
-namespace dotMailer.Api
+namespace dotdigital.Api
 {
     public class ServiceResult
     {

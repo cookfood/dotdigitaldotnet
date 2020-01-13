@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using dotMailer.Api.Resources.Enums;
+using dotdigital.Api.Resources.Enums;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiContact
 	{
@@ -11,10 +11,10 @@ namespace dotMailer.Api.Resources.Models
 		public string Email
 		{ get; set; }
 
-		public ApiContactOptInTypes OptInType
+		public ApiContactOptInTypes? OptInType
 		{ get; set; }
 
-		public ApiContactEmailTypes EmailType
+		public ApiContactEmailTypes? EmailType
 		{ get; set; }
 
 		public ApiContactDataList DataFields

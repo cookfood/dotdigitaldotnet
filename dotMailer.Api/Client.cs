@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace dotMailer.Api
+namespace dotdigital.Api
 {
     public partial class Client
     {
         private readonly HttpClient httpClient;
         private readonly MediaTypeFormatter jsonFormatter;
 
-        public Client(string username, string password)
+        public Client(string baseUrl, string username, string password)
         {
+            BaseAddress = baseUrl;
             httpClient = GetHttpClient(username, password);
 
             var settings = new JsonSerializerSettings();

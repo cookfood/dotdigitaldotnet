@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiCampaignContactOpen
 	{
@@ -17,7 +17,13 @@ namespace dotMailer.Api.Resources.Models
 		public string MailClientVersion
 		{ get; set; }
 
+		public byte[] IP
+		{ get; set; }
+
 		public string IpAddress
+		{ get; set; }
+
+		public int UserAgentId
 		{ get; set; }
 
 		public string UserAgent
@@ -30,6 +36,12 @@ namespace dotMailer.Api.Resources.Models
 		{ get; set; }
 
 		public DateTime DateOpened
+		{ get; set; }
+
+		public int MailClientID
+		{ get; set; }
+
+		public int MailClientVersionID
 		{ get; set; }
 	}
 }

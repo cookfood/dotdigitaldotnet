@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiCampaignContactClick
 	{
@@ -14,7 +14,13 @@ namespace dotMailer.Api.Resources.Models
 		public string Url
 		{ get; set; }
 
+		public byte[] Ip
+		{ get; set; }
+
 		public string IpAddress
+		{ get; set; }
+
+		public int UserAgentId
 		{ get; set; }
 
 		public string UserAgent

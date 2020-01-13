@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace dotMailer.Api.Resources.Models
+namespace dotdigital.Api.Resources.Models
 {
 	public class ApiContactList : List<ApiContact>
 	{ }

@@ -1,9 +1,10 @@
-namespace dotMailer.Api.Resources.Enums
+namespace dotdigital.Api.Resources.Enums
 {
 	public enum ApiSplitTestMetrics
 	{
 		Opens,
 		Clicks,
+		ROI,
 		NotAvailableInThisVersion
 	}
 }
